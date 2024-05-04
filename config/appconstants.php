@@ -40,23 +40,30 @@ return [
         'Productivity Apps' => [
 
             [
-              'name' => 'Tensor',
-              'label' => 'Skills Management',
-              'img' => 'tensor_brand_logo.svg',
-              'url' => 'https://tensor.kapkara.one',
+              'name' => 'PDM',
+              'label' => 'Product Data Management',
+              'img' => 'pdm.svg',
+              'url' => 'https://pdm.kapkara.one',
               'desc' => "
+              <p>a Product Data Management (PDM) program designed for small businesses without the budget to purchase large PDM programs with CAD integration.
+              This online application manages product data for small businesses at a very low cost.
+
+              This web-based PDM application assists you in managing:
+              Make a generator for part numbers.
+              Product data versioning (material, assembly notes, and production notes) Content and related files (three-dimensional and drawing)
+              Engineering Data Release and Change Management</p>
                 <ul>
-                <li>Having trouble in managing all skills, roles, levels of competency of your talents?</li>
-                <li>Need a centralized web app to keep all your assesments and share them with your employee?</li>
+                <li>Part Number Generator</li>
+                <li>Engineering Change Notice Monitoring</li>
                 <li>Tensor is a web based application tailored for your needs. In todays fast changing work environments,
                 employees need to adapt to changing requirements.</li>
                 </ul>",
             ],
             [
-              'name' => 'eMOM',
-              'label' => 'Minutes of Meetings',
-              'img' => 'emom_brand_logo.svg',
-              'url' => 'https://emom.kapkara.one',
+              'name' => 'RM',
+              'label' => 'Requirements Management',
+              'img' => 'requirements-stack.svg',
+              'url' => 'https://requirements.kapkara.one',
               'desc' => "
                 <p>Private and/or enterprise level Minutes of Meeting (MoM) application with centeralize repository for all data</p>
                 <ul>
@@ -98,21 +105,7 @@ return [
                   <li>Any file that is in digital format.</li>
                 </ul>',
             ],
-            [
-              'name' => 'hDocumentor',
-              'label' => 'Write Your Documentation in HTML',
-              'img' => 'edoc_brand_logo.svg',
-              'url' => 'https://documentor.kapkara.one',
-              'desc' => "
-                <p>Centralized platform for writing enterprise level documentation</p>
-                <ul>
-                <li>Web based (HTML) infrastructure.</li>
-                <li>Standards, Specifications, Procedures etc</li>
-                <li>Standardized formats for each company</li>
-                <li>Configuration controlled, with release and change control flow.</li>
-                <li>Mobile friendly access accross.</li>
-                </ul>",
-            ],
+
         ],
 
         'Utility Apps' => [
@@ -127,14 +120,6 @@ return [
                 yapıp andında döküm alabileceğiniz bir uygulama.</p>",
             ],
 
-            [
-              'name' => 'Sınav Kapısı',
-              'label' => 'Deneme Sınavları Merkezi',
-              'img' => 'test_brand_logo.svg',
-              'url' => 'https://sinavkapisi.kapkara.one',
-              'desc' => "
-                <p>Kendinizi her an deneyebileceğiniz ve gelişiminizi izleyebileceğiniz deneme sınavları merkezi</p>",
-            ],
         ],
     ],
 
