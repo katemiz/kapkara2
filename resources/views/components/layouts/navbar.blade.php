@@ -26,8 +26,12 @@
         <div class="navbar-end">
           <a href="/" class="navbar-item is-active" wire:navigate>Home</a>
           <div class="navbar-item has-dropdown is-hoverable">
-            <p class="navbar-link">Apps</p>
+            {{-- <p class="navbar-link">Apps</p> --}}
+            <a href="/apps" class="navbar-item navbar-link" wire:navigate>Apps2</a>
+
             <div class="navbar-dropdown">
+
+
 
                 @foreach ( config('appconstants.software') as $uygulamalar)
 

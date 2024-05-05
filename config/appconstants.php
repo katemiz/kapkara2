@@ -42,6 +42,7 @@ return [
             [
               'name' => 'PDM',
               'label' => 'Product Data Management',
+              'banner_img' => 'pdm_banner.svg',
               'img' => 'pdm.svg',
               'url' => 'https://pdm.kapkara.one',
               'desc' => "
@@ -62,6 +63,7 @@ return [
             [
               'name' => 'RM',
               'label' => 'Requirements Management',
+              'banner_img' => 'requirements_banner.svg',
               'img' => 'requirements-stack.svg',
               'url' => 'https://requirements.kapkara.one',
               'desc' => "
@@ -79,6 +81,7 @@ return [
             [
               'name' => 'eMemo',
               'label' => 'Project Memo Exchange',
+              'banner_img' => 'pdm_banner.svg',
               'img' => 'ememo_brand_logo.svg',
               'desc' => 'Communication Made Easy',
               'url' => 'https://ememo.kapkara.one',
@@ -94,6 +97,7 @@ return [
             [
               'name' => 'k-library',
               'label' => 'Personal Digital Library - PDL',
+              'banner_img' => 'pdm_banner.svg',
               'img' => 'app_header_logo.svg',
               'url' => 'https://k-library.kapkara.one',
               'desc' => '<p>k-library, "Personal Digital Library" is an app designed to keep your digital assets in one place and accessible only for you.</p>  <p>You can store them in your server and tag them.</p>
@@ -113,6 +117,7 @@ return [
             [
               'name' => 'eYönetici',
               'label' => 'Bina Yönetim Uygulaması',
+              'banner_img' => 'yonetici_banner.svg',
               'img' => 'yonetici_brand_logo.svg',
               'url' => 'https://yonetici.kapkara.one',
               'desc' => "
@@ -124,55 +129,62 @@ return [
     ],
 
     'engineers' => [
-        [
-          'name' => 'Kılıç Ali Temiz',
-          'profession' => 'Mechanical Engineer',
-          'expertise' => '30+ years of aerospace experience and 15+ years of web programming',
-          'img' => 'katemiz.jpg',
-          'mail' => 'katemiz@gmail.com',
-          'link' => 'katemiz',
-          'media' => [
-            'linkedin' => 'https://tr.linkedin.com/in/k%C4%B1l%C4%B1%C3%A7-ali-temiz-134a1262',
-            'github' => 'https://github.com/katemiz',
-            'twitter' => 'https://twitter.com/katemiz1',
-          ],
+
+
+        "Engineers" => [
+
+            [
+            'name' => 'Kılıç Ali Temiz',
+            'profession' => 'Mechanical Engineer',
+            'expertise' => '30+ years of aerospace experience and 15+ years of web programming',
+            'img' => 'katemiz.jpg',
+            'mail' => 'katemiz@gmail.com',
+            'link' => 'katemiz',
+            'media' => [
+                'linkedin' => 'https://tr.linkedin.com/in/k%C4%B1l%C4%B1%C3%A7-ali-temiz-134a1262',
+                'github' => 'https://github.com/katemiz',
+                'twitter' => 'https://twitter.com/katemiz1',
+            ],
+            ],
+
+            [
+            'name' => 'Ayşe Şolpan Temiz',
+            'profession' => 'Aeronautical Engineer',
+            'expertise' => '30+ years of aerospace experience. Experience in aerostructures production, structural design, system safety analysis, airworthiness and certification, technology management',
+            'img' => 'astemiz.jpg',
+            'mail' => 'astemiz@gmail.com',
+            'link' => null,
+            ],
+
+            [
+            'name' => 'Zeynep Albayrak',
+            'profession' => 'Electrical-Electronics Engineer',
+            'expertise' =>  'Junior Python Programmer. Just completed certificate program for python',
+            'img' => 'zeynep.jpg',
+            'mail' => 'z@gmail.com',
+            'link' => null,
+            ]
         ],
 
-        [
-          'name' => 'Ayşe Şolpan Temiz',
-          'profession' => 'Aeronautical Engineer',
-          'expertise' => '30+ years of aerospace experience. Experience in aerostructures production, structural design, system safety analysis, airworthiness and certification, technology management',
-          'img' => 'astemiz.jpg',
-          'mail' => 'astemiz@gmail.com',
-          'link' => null,
-        ],
+        "Coming Soon" => [
+            [
+            'name' => 'Merve Duru Temiz',
+            'profession' => 'To Be Front-End Developer',
+            'expertise' => 'just starting off.',
+            'img' => 'mdtemiz.jpg',
+            'mail' => 'merve.temiz@metu.edu.tr',
+            'link' => null,
+            ],
 
-        [
-          'name' => 'Zeynep Albayrak',
-          'profession' => 'Electrical-Electronics Engineer',
-          'expertise' =>  'Junior Python Programmer. Just completed certificate program for python',
-          'img' => 'zeynep.jpg',
-          'mail' => 'z@gmail.com',
-          'link' => null,
-        ],
-
-        [
-          'name' => 'Merve Duru Temiz',
-          'profession' => 'To Be Front-End Developer',
-          'expertise' => 'just starting off.',
-          'img' => 'mdtemiz.jpg',
-          'mail' => 'merve.temiz@metu.edu.tr',
-          'link' => null,
-        ],
-
-        [
-          'name' => 'Harun Emre Temiz',
-          'profession' => 'To Be Game Developer',
-          'expertise' => 'Has more than 10 years of active gaming experience. Not developed and but hope to be ready soon',
-          'img' => 'hetemiz.jpg',
-          'mail' => 'hetemiz@gmail.com',
-          'link' => null,
-        ],
+            [
+            'name' => 'Harun Emre Temiz',
+            'profession' => 'To Be Game Developer',
+            'expertise' => 'Has more than 10 years of active gaming experience. Not developed and but hope to be ready soon',
+            'img' => 'hetemiz.jpg',
+            'mail' => 'hetemiz@gmail.com',
+            'link' => null,
+            ]
+        ]
     ],
 
 

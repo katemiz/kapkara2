@@ -18,13 +18,14 @@ class LwKapkara extends Component
     public $isActive;
     public $counter = 0;
 
+    public $params;
+
 
     public function mount()
     {
-        Log::info("mounting");
         $this->isActive = true;
-
         $this->act = request('act');
+        $this->params = json_decode(json_encode(config('appconstants')));
     }
 
 
